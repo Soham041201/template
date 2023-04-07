@@ -97,8 +97,6 @@
   cursor: pointer;
 }
 
-
-
 .Slogan-Result-Container {
   display: flex;
   flex-direction: row;
@@ -152,4 +150,33 @@
 .Slogan-Grid-Pagination {
   display: flex;
   position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+  color: #146eb4;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.Slogan-Grid-Pagination-Button {
+  background: #ffffff;
+  color: #146eb4;
+  cursor: pointer;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  margin: 5px;
+
+  border-radius: 100%;
+}
+
+.Slogan-Grid-Pagination-Button:hover {
+  background-color: #146eb4;
+  color: #ffffff;
+  transition: 0.1s;
 }
