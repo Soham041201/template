@@ -5,12 +5,11 @@ import SloganContainer from "./slogan-container/SloganContainer";
 import TryFreeProducts from "./try-free-products/TryFreeProducts";
 import Features from "./feature-container/Features";
 import Footer from "./footer/Footer";
-
 import feature1 from "./assets/feature01.svg";
 import feature2 from "./assets/feature02.svg";
 import feature3 from "./assets/feature03.svg";
 import india from "./assets/india.svg";
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (
