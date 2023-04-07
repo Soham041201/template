@@ -1,0 +1,35 @@
+.Feature-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  width: calc(33.33% - 16px);
+}
+
+.Feature-Image {
+  width: "72px";
+  height: "72px";
+  margin-bottom: 36px;
+}
+
+.Feature-Title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #1a181e;
+}
+
+.Feature-Sub-Title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #4d4d4d;
+}

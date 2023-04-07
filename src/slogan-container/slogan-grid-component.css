@@ -1,0 +1,48 @@
+.Slogan-Grid-Component-Item {
+  min-height: 46px;
+  align-items: center;
+  display: flex;
+  min-width: 50%;
+  background: #f2f2f2;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  position: relative;
+}
+
+.Slogan-Grid-Component-Item-Content {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1a181e;
+}
+
+.Slogan-Grid-Component-Item:hover {
+  background: #ffffff;
+  border: 1px solid #146eb4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.Slogan-Grid-Component-Item-Copy {
+  position: absolute;
+  background: #4d4d4d;
+  border-radius: 4px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+  left: 0px;
+  transform: translateY(-50%);
+  transform: translateX(-120%);
+  z-index: 1;
+  width: 106px;
+  height: 28px;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.Try-Free-Products {
+  margin: 80px 160px 0px 160px;
+  
+}
+
+.Try-Free-Products-Grid {
+
+    margin-top: 44px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+  }
+  
+
+.Try-Free-Products-Title {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+  color: #1a181e;
+}

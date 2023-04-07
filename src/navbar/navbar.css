@@ -1,0 +1,47 @@
+.Navbar-Main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar-Logo {
+  margin-top: 3px;
+}
+.Navbar-logo {
+  width: 156px;
+  height: 44px;
+}
+
+.Nav-Link {
+  padding-bottom: 20px;
+}
+.Nav-link {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0px 32px 300px 32px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.Dukaan-For-PC-Button {
+  background: #ffffff;
+  color: #146eb4;
+  border-radius: 4px;
+  border: none;
+  font-family: inherit;
+  font-size: 18px;
+  width: 177px;
+  line-height: 114%;
+  height: 50px;
+  padding: 0px;
+}
+
+.Dukaan-For-PC-Button:hover {
+  background: #ffffff;
+  color: #ffffff;
+  border: 2px solid black;
+  transition: 0.2s;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.Product-Card-Image {
+  width: 352px;
+  height: 200px;
+  margin-bottom: 16px;
+}
+
+.Product-Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: flex-start;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Product-Card-Title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a181e;
+}
+
+.Product-Card-Sub-Title {
+  font-style: normal;
+  margin-top: 4px;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+}

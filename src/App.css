@@ -1,38 +1,57 @@
 .App {
-  text-align: center;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-Header {
+  background-color: #146eb4;
+  padding: 20px 160px 0px 160px;
+  height: 328px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: -1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-Features {
+  background: rgba(20, 110, 180, 0.05);
+  display: inline-flex;
+  padding: 74px 180px 74px 180px;
+  margin-top: 90px;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-Footer {
+  padding: 54px 160px 0px 160px;
+  margin-top: 80px;
+  bottom: 0%;
+  background: #1a181e;  
+}
+
+.App-Footer-Trademark {
+  font-style: normal;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  margin-top: 24px;
+  padding-bottom: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+.India-logo {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Made-In-India {
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
 }
