@@ -78,16 +78,12 @@ const SloganContainer = (props: Props) => {
       <div className="Slogan-Grid-Pagination">
         <span> {`< Previous`}</span>
         <div>
-          <button className="Slogan-Grid-Pagination-Button">1</button>
-          <button className="Slogan-Grid-Pagination-Button">2</button>
-          <button className="Slogan-Grid-Pagination-Button">3</button>
-          <button className="Slogan-Grid-Pagination-Button">4</button>
-          <button className="Slogan-Grid-Pagination-Button">5</button>
-          <button className="Slogan-Grid-Pagination-Button">6</button>
-          <button className="Slogan-Grid-Pagination-Button">7</button>
-          <button className="Slogan-Grid-Pagination-Button">8</button>
+          {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => {
+            return (
+              <button className="Slogan-Grid-Pagination-Button">{item}</button>
+            );
+          })}
         </div>
-
         <span> {`Next >`}</span>
       </div>
     </div>

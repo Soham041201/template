@@ -1,12 +1,14 @@
 import React from "react";
 import logo from "../assets/logo.svg";
 import "./footer.css";
+
+
 type Props = {};
 
 const Footer = (props: Props) => {
   return (
     <div className="Footer-Container">
-      <img src={logo} alt="" className="Footer-logo"/>
+      <img src={logo} alt="" className="Footer-logo" />
       <div className="Footer-Links">
         <a href="/" className="Footer-Link">
           Contact
